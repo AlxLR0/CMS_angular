@@ -1,4 +1,4 @@
-# Sgac
+# Sgac (sistema de gestion de alumnos y cursos)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
 
