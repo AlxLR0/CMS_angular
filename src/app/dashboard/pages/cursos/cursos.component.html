@@ -1,4 +1,55 @@
 <div class="container">
+  <H1 class="text-center">Cursos</H1> 
+    <button class="btn btn-success btn-sm me-2 rounded-pill"  title="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="ri-add-circle-fill ri-lg"></i> Agregar Curso</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar Curso nuevo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Nombre</span>
+          <input type="text" class="form-control" placeholder="Nombre del curso" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Descripicon</span>
+          <input type="text" class="form-control" placeholder="Añade una descripcion llamativa" aria-label="Añade una descripcion llamativa" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Fecha de inicio</span>
+          <input type="date" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Fecha de final</span>
+          <input type="date" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Costo $</span>
+          <input type="number" class="form-control" placeholder="Precio en pesos MXN" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-text">Temas</span>
+          <textarea class="form-control" placeholder="Escribe los temas que seran vistos en el curso" aria-label="With textarea"></textarea>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal"><i class="ri-close-circle-fill"></i> Cancelar</button>
+        <button type="button" class="btn btn-success"><i class="ri-checkbox-circle-fill"></i> Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <hr>
   <div class="row">
     <div class="col-md-6 mb-4">
       <div class="card my-3 shadow d-flex flex-column h-100">
