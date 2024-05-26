@@ -7,6 +7,7 @@ import { CursosComponent } from './pages/cursos/cursos.component';
 import { PagosComponent } from './pages/pagos/pagos.component';
 import { PeriodosComponent } from './pages/periodos/periodos.component';
 import { PermisosComponent } from './pages/permisos/permisos.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
       {
         path: 'permisos',
         component: PermisosComponent
+      },
+      {
+        path: 'perfil',
+        component: PerfilComponent
       }
 
     ]
